@@ -68,7 +68,7 @@ nav ul li a:hover {
 }
 
 .main{
-    background-image: url(../photos/backgroundstadiumcricket.webp);
+    background-image: url(backgroundstadiumcricket.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,7 +137,7 @@ nav ul li a:hover {
         border: 2px solid white;
       }
       #about-box1{
-        background-image: url(../photos/cricketbackground2.avif);
+        background-image: url(cricketbackground2.avif);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
