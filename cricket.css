@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: cursive;
+}
+
+.navbar{
+    height: 80px;
+    background-color: rgb(0, 137, 139);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12%;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    padding-right: 40px;
+}
+.main-logo{
+    color: whitesmoke;
+    font-size: 26px;
+    font-weight: bold;
+}
+.sub-logo {
+    color: #ffd21c;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Navigation */
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ffd21c;
+}
+
+.active {
+    border-bottom: 3px solid #ffd21c;
+    padding-bottom: 10px;
+}
+.join {
+    background-color: #ffd21c;
+    color: #071b2b;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.join:hover {
+    background-color: white;
+}
+
+.main{
+    background-image: url(../photos/backgroundstadiumcricket.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 60px;
+    border: 2px solid black;
+
+}
+.main-line{
+    color: white;
+    font-size:x-large;
+}
+.main-satyam{
+    color: rgb(208, 255, 0);
+    font-size: 30px;
+    font-weight: bolder;
+}
+.main-cricket{
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-para{
+    color: white;
+}
+.main-get{
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+   text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 12px;
+    font-weight: bold;
+    margin: 20px;
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid whitesmoke;
+    background-color: antiquewhite;
+    padding-left: 800px;
+
+}
+.box-item{
+        width: 125px;
+        height:80px;
+        padding: 9px;
+        border: 2px solid antiquewhite;
+        text-align: center;
+        font-size: 10px;
+        color: black;
+        font-weight: 500;
+        line-height: 1.4    ;
+      }
+
+      .about{
+        display: flex;
+        flex-wrap: wrap;
+        border: 2px solid white;
+      }
+
+      .about-box{
+        width: 660px;
+        height: 350px;
+        margin: 45px;
+        border: 2px solid white;
+      }
+      #about-box1{
+        background-image: url(../photos/cricketbackground2.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .text{
+        color: rgb(255, 166, 0);
+        padding: 10px;
+        font-size: larger;
+      }
+
+      .text-1{
+        padding: 10px;
+        font-size: x-large;
+        font-weight: bolder;
+      }
+      .text-2{
+        padding: 10px;
+        font-size: large;
+      }
+      .text-3{
+        display: inline block;
+        border-radius: 5px;
+        color: white;
+        background-color: blue;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        margin-left: 20px;
+      }
+      .programs{
+        text-align: center;
+        border: 2px solid whitesmoke;
+      }
+      .programms{
+        display: flex;
+        flex-wrap: wrap;
+        border: 2px solid white;
+        width: 1500px;
+        height: 120px;
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 30px;
+      }
+      .programms-1{
+        display: inline block;
+        border-radius: 5px;
+        color: black;
+        background-color: lightpink;
+        text-align: center;
+        width: 250px;
+       
+      }
+      .prog-1{
+        text-align: center;
+        color: yellow;
+      }
+
+      .footer{
+        border: 2px solid rgb(0, 137, 139);
+        background-color: rgb(0, 137, 139);
+      }
+      .footer_satyam{
+        color: white;
+      }
+      .footer_cricket{
+        color: yellow;
+      }
+
+      .footerbox{
+        display: flex;
+      }
+
+      .footer_reserved{
+        color: white;
+        margin-top: 10px;
+      }
+      nav{
+        margin-top: 15px;
+        margin-left: 450px;
+        margin-right:400px
+      }
